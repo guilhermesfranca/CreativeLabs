@@ -1,0 +1,69 @@
+.container {
+    width: 100%;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;   
+    justify-content: center; 
+    text-align: center;
+    background-color: #f6f8fc;
+}
+
+.experiencia {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.experiencia h2 {
+    font-size: 45px;
+    color: #32333c;
+
+}
+
+.experiencia h2::after {
+    content: '';
+    display: block;
+    width: 100px;     
+    height: 4px;     
+    background-color: #fbbd44;  
+    margin-top: 8px; 
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.experiencia p {
+    font-size: 18px;
+    max-width: 720px;
+    color: #8a8fa3;
+}
+
+.cards {
+    max-width: 1024px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+}
+.dark {
+    background-color: #32333c;
+}
+
+.dark p, .dark span, .dark small {
+    color: white;
+}
+
+.dark h3 {
+    color:#a2e712
+}
+
+.dark h2 {
+    color: #a2e712;
+}
+
+.dark h2::after {
+    background-color: #6018f6;
+}

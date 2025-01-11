@@ -1,0 +1,59 @@
+.div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width:  100%;
+    height: 10vh;
+    background-color: #fff;
+}
+
+.div img {
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+
+.div button {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    background-color: white;
+    color: #022144;
+    border-color:#022144;
+    transition: background-color 0.7s ease; /* Suaviza o hover */
+    cursor: pointer; /* Indica interatividade */
+    
+
+}
+.div button:hover {
+    background-color: #022144; /* Aplica o hover corretamente */
+    color: white;
+    border: white;
+
+}
+
+.dark {
+    background-color: #33333d;
+}
+.dark img {
+  filter: invert(1);   
+}
+
+.dark button {
+    background-color: #33333d;
+    border-color: #a2e519;
+    color: #a2e519;
+}
+
+.dark button:hover {
+    background-color: #a2e519; /* Aplica o hover corretamente */
+    color: #33333d;
+    border: #33333d;
+
+}
